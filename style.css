@@ -1,0 +1,38 @@
+body{
+    background-color:#ffffff;
+    margin:20px;
+}
+#chart-area svg {
+    margin-top:80px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#reset-buttom, #play-buttom{
+    float:left;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+#continent-select{
+    width:150px;
+    float:right;
+    margin-top:10px;
+}
+.d3-tip{
+    background: rgba(108, 164, 195, 0.6);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    padding: 20px;
+    pointer-events: none !important;
+    color: #ffffff;
+    box-shadow: 0 4px 20px 4px rgba(0, 20, 60, .1), 0 4px 80px -8px rgba(0, 20, 60, .2);
+    border-radius: 4px;
+}
+
+#date-slider { 
+    background-color: rgba(102, 102, 102, 0.90);
+    z-index: 2;
+    }
